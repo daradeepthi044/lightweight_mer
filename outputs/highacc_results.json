@@ -1,0 +1,12 @@
+{
+  "loso_4class_graph": 0.5549,
+  "speaker_dependent_4class_wav2vec_xgb": 0.7995337995337995,
+  "speaker_dependent_binary_pos_neg": 0.9057239057239057,
+  "binary_model": "xgb",
+  "binary_xgb": 0.9057239057239057,
+  "binary_mlp": 0.8653198653198653,
+  "binary_ensemble": 0.9023569023569024,
+  "target_90_met_4class": false,
+  "target_90_met_binary": true,
+  "binary_definition": "positive=happy(exc+hap); negative=angry+sad; neutral excluded"
+}
